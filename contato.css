@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serife;
+}
+
+li:hover {
+    color: #D21617;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+.contact {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: left;
+    margin: 60px auto;
+}
+
+div {
+    display: block;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.formulario {
+    width: 600px;
+    padding: 30px;
+    border: 1px solid #fff;
+    margin: 0px auto;
+    border-radius: 20px;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.formulario p {
+    width: 100%;
+    font-size: 1.5em;
+    color: #fff;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.field label, .field span {
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.radiobox label {
+    width: auto;
+    display: inline-block;
+}
+
+label {
+    cursor: default;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    color: white;
+}
+
+input[type="text" i] {
+    padding: 1px 2px;
+}
+
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
+
+input[type="submit"] {
+    display: block;
+    background-color: #fff;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+input[type="submit" i] {
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    color: buttontext;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+input {
+    writing-mode: horizontal-tb;
+    font: style 50px;
+    font: variant ligatures 50px;
+    font: variant caps 50px;
+    font: variant numeric 50px;
+    font: variant east asian 50px;
+    font: weight 50px;
+    font: stretch 50px;
+    font: size 50px;
+    font: family 50px;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+} 
+
+textarea {
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+
+textarea {
+    writing-mode: horizontal-tb;
+    font: style 50px;
+    font: variant ligatures 50px;
+    font: variant caps 50px;
+    font: variant numeric 50px;
+    font: variant east asian 50px;
+    font: weight 50px;
+    font: stretch 50px;
+    font: size 50px;
+    font-family: monospace;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    background-color: field;
+    column-count: initial;
+    margin: 0em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding: 2px;
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serife;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
